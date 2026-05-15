@@ -286,13 +286,6 @@ github qwgxhj enyabot
 | ai.max_context_rounds | 最大上下文轮数 | 12 |
 | rate_limit.* | 频率限制 | 用户 6次/分，群 20次/分 |
 
-## 安全说明
-
-- **不要提交 `.env` 文件**（包含 API Key）
-- **不要提交 `data/` 目录**（包含数据库、日志）
-- **不要提交 `config.yaml`**（包含个人 QQ 号）
-- 如果 API Key 泄露，请立即轮换
-
 ## 许可证
 
 MIT
