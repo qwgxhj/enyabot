@@ -148,7 +148,7 @@ bot:
   master2_qq: []
 
 webui:
-  host: "127.0.0.1"
+  host: "0.0.0.0"  # 如需外部访问，改为 0.0.0.0；仅本地访问用 127.0.0.1
   port: 7860
 
 napcat:
@@ -288,7 +288,7 @@ github qwgxhj enyabot
 | 配置项 | 说明 | 默认值 |
 |--------|------|--------|
 | bot.master_qq | 管理员 QQ 号 | 空 |
-| webui.host/port | WebUI 监听地址 | 127.0.0.1:7860 |
+| webui.host/port | WebUI 监听地址 | 0.0.0.0:7860（外部可访问） |
 | napcat.ws_url | NapCat WebSocket 地址 | ws://127.0.0.1:3001 |
 | ai.trigger_prefixes | AI 触发前缀 | 阿玉, ayu, /ai |
 | ai.max_context_rounds | 最大上下文轮数 | 12 |
