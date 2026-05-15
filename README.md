@@ -87,6 +87,14 @@ cd enyabot
 
 ### 2. 安装依赖
 
+**Ubuntu/Debian 系统需要先安装 venv 模块：**
+
+```bash
+sudo apt install python3-pip python3.12-venv -y
+```
+
+**创建虚拟环境并安装依赖：**
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
