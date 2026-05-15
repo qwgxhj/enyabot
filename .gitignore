@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.local
+*.log
+
+# Runtime data / secrets
+/data/*
+!/data/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+.webui_auth.json
+context_sessions.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

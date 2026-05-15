@@ -1,0 +1,42 @@
+app:
+  name: qq-ai-bot
+  env: prod
+
+bot:
+  master_qq: ''
+  master2_qq: []
+
+webui:
+  host: "127.0.0.1"
+  port: 7860
+
+napcat:
+  ws_url: ws://127.0.0.1:3001
+  reconnect_interval: 5
+  heartbeat_interval: 30
+
+ai:
+  default_provider: main
+  default_persona: alicia
+  max_context_rounds: 12
+  memory_enabled: true
+  tool_call_enabled: true
+  trigger_prefixes:
+    - 阿玉
+    - ayu
+    - /ai
+
+rate_limit:
+  user_ai_per_minute: 6
+  group_ai_per_minute: 20
+
+features:
+  weather: true
+  reminder: true
+  moderation: true
+  score: true
+  ai: true
+
+mcp:
+  enabled: false
+  servers: []
